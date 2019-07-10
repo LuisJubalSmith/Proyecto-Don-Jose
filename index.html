@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Programa para admministrar Finca de cafe de Don Jose</h1>
+        <br>
+        <br>
+        <h2>Registro de Recolectores</h2>
+        <br>
+        <input id="nombreTxt" type="text" placeholder="Nombre">
+
+        <input id="apellidoTxt" type="text" placeholder="Primer Apellido">
+
+        <input id="apellido2Txt" type="text" placeholder="Segundo Apellido">
+
+        <input id="cedulaTxt" type="number" placeholder="Cedula">
+
+        <select id="sltTipoRecolector">
+            <option value=""></option>
+            <option value="Regular">Regular</option>
+            <option value="Temporal">Temporal</option>
+        </select>
+        <button id="registrarBtn">Registrar</button>
+        <br>
+        <br>
+        <h2>Actualización de Recolectores</h2>
+        <br>
+        <select id="sltActualizar">
+        </select>
+        <input id="nombreActualizarTxt" type="text" placeholder="Nombre">
+        <input id="apellidoActualizarTxt" type="text" placeholder="Primer Apellido">
+        <input id="apellido2ActualizarTxt" type="text" placeholder="Segundo Apellido">
+        <input id="cedulaActualizarTxt" type="text" placeholder="Cedula">
+        <select id="sltActualizarTipoRecolector">
+            <option value=""></option>
+            <option value="Regular">Regular</option>
+            <option value="Temporal">Temporal</option>
+        </select>
+        <button id="actualizarBtn">Actualizar</button>
+        <br>
+        <h2>Eliminar Recolector</h2>
+        <select id="sltEliminar">
+        </select>
+        <button id="eliminarBtn">Eliminar</button>
+        <br>
+        <h2>Registro de Cajuelas</h2>
+        <select id="sltRegCajuela">
+        </select>
+        <select id="sltSemana">
+            <option value=""></option>
+            <option value="0">Lunes</option>
+            <option value="1">Martes</option>
+            <option value="2">Miercoles</option>
+            <option value="3">Jueves</option>
+            <option value="4">Viernes</option>
+            <option value="5">Sabado</option>
+        </select>
+        <input id="cantCajuelasTxt" type="number" placeholder="Cantidad Cajuelas">
+        <button id="registrarCajuelasBtn">Registrar</button>
+        <br>
+        <h2>Calcular Pago Semanal</h2>
+        <select id="sltPagoSemanal">
+        </select>
+        <button id="calcularPagoBtn">Calcular Pago</button>
+        <br>
+        <p id="resultadoPr">Pago:</p>
+        <br>
+        <br>
+        <button id="mostrarListaBtn">Mostrar Lista de Recolectores</button>
+        <button id="mostrarMayorRecolectorBtn">Mostrar > Recolector</button>
+        <button id="mostrarMenorRecolectorBtn">Mostrar < Recolector</button> <br>
+                <button id="resetSemanaBtn">Borra Semana</button>
+                <h3 id="resultadoH3"></h3>
+
+                <br>
+    </div>
+</body>
+
+</html>
